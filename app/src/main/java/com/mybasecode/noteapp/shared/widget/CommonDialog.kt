@@ -2,11 +2,11 @@ package com.mybasecode.noteapp.shared.widget
 
 import android.content.Context
 import androidx.annotation.ColorRes
-import com.vanthien113.noteapp.databinding.DialogCommonBinding
-import com.vanthien113.noteapp.presentation.base.BaseDialog
-import com.vanthien113.noteapp.shared.exts.changeBackgroundColor
-import com.vanthien113.noteapp.shared.exts.gone
-import com.vanthien113.noteapp.shared.exts.setOnDelayClickListener
+import com.mybasecode.noteapp.databinding.DialogCommonBinding
+import com.mybasecode.noteapp.presentation.base.BaseDialog
+import com.mybasecode.noteapp.shared.exts.changeBackgroundColor
+import com.mybasecode.noteapp.shared.exts.gone
+import com.mybasecode.noteapp.shared.exts.setOnDelayClickListener
 
 class CommonDialog(
     context: Context,

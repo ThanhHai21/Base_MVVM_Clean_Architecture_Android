@@ -1,14 +1,14 @@
-package com.vanthien113.noteapp.presentation.modules.addnote
+package com.mybasecode.noteapp.presentation.modules.addnote
 
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
-import com.vanthien113.noteapp.R
-import com.vanthien113.noteapp.databinding.FragmentAddNoteBinding
-import com.vanthien113.noteapp.presentation.base.BaseMVVMFragment
-import com.vanthien113.noteapp.presentation.modules.home.HomeFragmentDirections
-import com.vanthien113.noteapp.shared.exts.changeBackgroundColor
-import com.vanthien113.noteapp.shared.exts.setOnDelayClickListener
-import com.vanthien113.noteapp.shared.widget.CommonDialog
+import com.mybasecode.noteapp.R
+import com.mybasecode.noteapp.databinding.FragmentAddNoteBinding
+import com.mybasecode.noteapp.presentation.base.BaseMVVMFragment
+import com.mybasecode.noteapp.presentation.modules.home.HomeFragmentDirections
+import com.mybasecode.noteapp.shared.exts.changeBackgroundColor
+import com.mybasecode.noteapp.shared.exts.setOnDelayClickListener
+import com.mybasecode.noteapp.shared.widget.CommonDialog
 import com.skydoves.colorpickerview.ColorPickerDialog
 import com.skydoves.colorpickerview.listeners.ColorEnvelopeListener
 import dagger.hilt.android.AndroidEntryPoint

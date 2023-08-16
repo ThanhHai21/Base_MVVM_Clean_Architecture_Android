@@ -7,7 +7,7 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
-import com.vanthien113.noteapp.R
+import com.mybasecode.noteapp.R
 
 class LoadingDialog(context: Context) : Dialog(context) {
     override fun onCreate(savedInstanceState: Bundle?) {

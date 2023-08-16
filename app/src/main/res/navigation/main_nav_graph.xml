@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.vanthien113.noteapp.presentation.modules.splash.SplashFragment"
+        android:name="com.mybasecode.noteapp.presentation.modules.splash.SplashFragment"
         android:label="SplashFragment"
         tools:layout="@layout/fragment_splash">
         <action
@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.vanthien113.noteapp.presentation.modules.home.HomeFragment"
+        android:name="com.mybasecode.noteapp.presentation.modules.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home">
         <action
@@ -40,16 +40,16 @@
     </fragment>
     <fragment
         android:id="@+id/addNoteFragment"
-        android:name="com.vanthien113.noteapp.presentation.modules.addnote.AddNoteFragment"
+        android:name="com.mybasecode.noteapp.presentation.modules.addnote.AddNoteFragment"
         android:label="AddNoteFragment"
         tools:layout="@layout/fragment_add_note" />
     <fragment
         android:id="@+id/editNoteFragment"
-        android:name="com.vanthien113.noteapp.presentation.modules.editnote.EditNoteFragment"
+        android:name="com.mybasecode.noteapp.presentation.modules.editnote.EditNoteFragment"
         android:label="EditNoteFragment"
         tools:layout="@layout/fragment_add_note">
         <argument
             android:name="noteModel"
-            app:argType="com.vanthien113.tiannote.presentation.model.NoteModel" />
+            app:argType="com.mybasecode.noteapp.presentation.model.NoteModel" />
     </fragment>
 </navigation>
